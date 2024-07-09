@@ -35,7 +35,7 @@ for value in columnaMesAnterior.tolist():
     if(not columnaMesActual.tolist().__contains__(value)):
         faltantes.append(value)
 
-if (faltantes.__len__()==0):
+if (len(faltantes)==0):
     print("No hay bajas por efectuar.")
 else:
     print("Bajas:")
