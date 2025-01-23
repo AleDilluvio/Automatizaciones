@@ -10,8 +10,9 @@ def obtenerPrimeraColumna(path):
         input()
     raise KeyError()
 
-equiposA = obtenerPrimeraColumna(r"C:\Users\Alejo\Desktop\Equipos A.xlsx")
-equiposB = obtenerPrimeraColumna(r"C:\Users\Alejo\Desktop\Equipos B.xlsx")
+# Se debe ejecutar desde la misma carpeta en la que se encuentran los archivos y el script.
+equiposA = obtenerPrimeraColumna(r"Equipos A.xlsx")
+equiposB = obtenerPrimeraColumna(r"Equipos B.xlsx")
 
 faltantes = []
 
